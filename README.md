@@ -2,7 +2,8 @@
 This is a repository for me to learn deep learning.
 
 ## PCBDetectionBasedOnYOLOv8
-### 这是一个关于PCB缺陷检测的检测系统
+这是一个关于PCB缺陷检测的检测系统，history用于存储检测历史(格式为json)，model用于存储模型权重文件(.bt)，ui用于存储主程序和ui文件
+运行需要YOLOv8官网代码包环境支持(环境安装: pip install ultralytics )
 
 ## 主程序入口
 PCBDetectionSystem/ui/main.py
